@@ -1,0 +1,9 @@
+import numpy as np 
+a,b = np.shape (matrix)
+print (a,b)
+summatrix = 0
+for i in range (100) :
+    #summatrix=1
+    summatrix += np.sum(matrix[ i])
+print (summatrix )
+#print (matrix [ 2])
